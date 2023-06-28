@@ -1,5 +1,5 @@
 const calculator = {
-    add: function(a, b){
+    plus: function(a, b){
         console.log(a + b);
     },
     minus: function(a, b){
@@ -16,7 +16,7 @@ const calculator = {
     }
 }
 
-calculator.add(5, 7)
+calculator.plus(5, 7)
 calculator.minus(5, 7)
 calculator.times(5, 7)
 calculator.divide(5, 7)
